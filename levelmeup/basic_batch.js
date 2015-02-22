@@ -16,15 +16,11 @@ var buf = fs.readFile(process.argv[3], 'utf8', function(err, data) {
             b.del(batch_command[1]);
         }
     });
-    while(db_not_ready) {
-        if(db.isOpen()){
 
-            b.write(function(err) {
-                if(err) {
-                    console.error(err);
-                }
-                db_not_ready = false;
-            });
+    b.write(function(err) {
+        if(err) {
+            console.error(err);
         }
-    }
+        db_not_ready = false;
+    });
 });
