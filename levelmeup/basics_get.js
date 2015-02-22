@@ -2,7 +2,7 @@ var level = require('level');
 var db = level(process.argv[2]);
 function fetchNext(i) {
     //console.log(i);
-    var key = 'gibberish' + i;
+    var key = 'key' + i;
     db.get(key, function(err, value) {
         if(!err){
             console.log(key + '=' + value);
