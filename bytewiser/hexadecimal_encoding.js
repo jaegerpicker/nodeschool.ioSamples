@@ -1,3 +1,3 @@
-var b = new Buffer([0, 15, 24, 3, 250, 83]);
+var b = new Buffer(process.argv.slice(2));
 
 console.log(b.toString('hex'));
