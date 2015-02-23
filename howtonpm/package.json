@@ -16,7 +16,5 @@
     "url": "https://github.com/jaegerpicker/nodeschool.ioSamples/issues"
   },
   "homepage": "https://github.com/jaegerpicker/nodeschool.ioSamples",
-  "dependencies": {
-    "once": "^1.3.0"
-  }
+  "dependencies": {}
 }
