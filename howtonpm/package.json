@@ -1,0 +1,19 @@
+{
+  "name": "howtonpm-jaegerpicker",
+  "version": "1.0.0",
+  "description": "nodeschool.io work",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com/jaegerpicker/nodeschool.ioSamples.git"
+  },
+  "author": " <Shawn Campbell>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaegerpicker/nodeschool.ioSamples/issues"
+  },
+  "homepage": "https://github.com/jaegerpicker/nodeschool.ioSamples"
+}
